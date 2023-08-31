@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Installation in progress (it may asks for confirmation)"
+echo "Script is starting copying files"
 
 rm -rf $HOME/.config/fish/
 rm -rf $HOME/.config/neofetch/
@@ -15,4 +15,4 @@ cp -r $HOME/rice-temp/tmux/ $HOME/.config/
 
 rm -rf $HOME/rice-temp/
 
-echo "Installation is done, you can start using your new rice!"
+echo "Script has finished copying files, you will now need to install fish, neofetch, rofi and tmux. I use nerd-fonts-complete so you will need that."
