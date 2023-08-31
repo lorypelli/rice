@@ -1,0 +1,5 @@
+alias ttc='cd $HOME/.config/'
+alias ttcf='cd $HOME/.config/fish/'
+alias ttcn='cd $HOME/.config/neofetch/'
+alias ttcr='cd $HOME/.config/rofi/'
+alias ttct='cd $HOME/.config/tmux/'
