@@ -1,14 +1,10 @@
 #!/bin/bash
 echo "Installation in progress (it may asks for confirmation)"
 
-sudo pacman -S base-devel git
-
 rm -rf $HOME/.config/fish/
 rm -rf $HOME/.config/neofetch/
 rm -rf $HOME/.config/rofi/
 rm -rf $HOME/.config/tmux/
-
-sudo pacman -S fish neofetch rofi tmux
 
 git clone https://github.com/lorypelli/rice $HOME/rice-temp
 

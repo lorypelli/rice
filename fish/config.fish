@@ -138,6 +138,8 @@ function fish_prompt
     set_color normal
 end
 
+set -U fish_greeting
+
 alias ttc='cd $HOME/.config/'
 alias ttcf='cd $HOME/.config/fish/'
 alias ttcn='cd $HOME/.config/neofetch/'
