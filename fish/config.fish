@@ -150,4 +150,5 @@ alias ttct='cd $HOME/.config/tmux/'
 alias ttr='cd $HOME/rice/'
 
 # Change lorypelli with your own username
+set -Ux CONFIG '/home/lorypelli/.config/'
 set -Ux RICE '/home/lorypelli/rice/'
