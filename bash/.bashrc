@@ -12,6 +12,8 @@ fish
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
+alias fetch='neofetch'
+
 alias ttc='cd $HOME/.config/'
 alias ttcf='cd $HOME/.config/fish/'
 alias ttcn='cd $HOME/.config/neofetch/'

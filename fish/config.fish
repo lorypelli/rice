@@ -140,6 +140,8 @@ end
 
 set -U fish_greeting
 
+alias fetch='neofetch'
+
 alias ttc='cd $HOME/.config/'
 alias ttcf='cd $HOME/.config/fish/'
 alias ttcn='cd $HOME/.config/neofetch/'
