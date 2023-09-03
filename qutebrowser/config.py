@@ -15,5 +15,5 @@ config.bind('<ALT-E>', 'open -t https://start.duckduckgo.com')
 config.bind('<ALT-R>', 'reload')
 config.bind('<ALT-C>', 'config-source')
 config.bind('<F12>', 'devtools')
-# It should work also with isert mode
+# It should work also with insert mode
 config.bind('<F12>', 'devtools', 'insert')
