@@ -15,6 +15,7 @@ alias grep='grep --color=auto'
 alias fetch='neofetch'
 
 alias ttc='cd $HOME/.config/'
+alias ttcb='cd $HOME/.config/qutebrowser/'
 alias ttcf='cd $HOME/.config/fish/'
 alias ttcn='cd $HOME/.config/neofetch/'
 alias ttcr='cd $HOME/.config/rofi/'
