@@ -4,6 +4,7 @@ config.load_autoconfig()
 theme.blood(c)
 
 config.unbind('q', 'normal')
+config.unbind('u', 'normal')
 config.unbind('d', 'normal')
 config.unbind('m', 'normal')
 config.unbind('b', 'normal')
