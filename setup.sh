@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "Script is starting copying files"
 
 rm -rf $HOME/.bashrc
 rm -rf $HOME/.config/fish/
@@ -19,5 +18,3 @@ cp -r $HOME/rice-temp/rofi/ $HOME/.config/
 cp -r $HOME/rice-temp/tmux/ $HOME/.config/
 
 rm -rf $HOME/rice-temp/
-
-echo "Script has finished copying files, you will now need to install fish, neofetch, qutebrowser, rofi and tmux. I use nerd-fonts-complete so you will need that."
