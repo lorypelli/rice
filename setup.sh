@@ -9,6 +9,7 @@ rm -rf $HOME/.config/tmux/
 
 git clone https://github.com/lorypelli/rice $HOME/rice-temp/
 git clone https://github.com/dracula/qutebrowser-dracula-theme $HOME/rice-temp/qutebrowser/dracula/
+git clone https://github.con/tmux-plugins/tpm $HOME/rice-temp/tmux/plugins/
 
 cp -r $HOME/rice-temp/bash/.bashrc $HOME/.bashrc
 cp -r $HOME/rice-temp/fish/ $HOME/.config/
