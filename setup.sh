@@ -9,9 +9,10 @@ rm -rf $HOME/.config/tmux/
 
 git clone https://github.com/lorypelli/rice $HOME/rice-temp/
 git clone https://github.com/dracula/qutebrowser-dracula-theme $HOME/rice-temp/qutebrowser/dracula/
-git clone https://github.con/tmux-plugins/tpm $HOME/rice-temp/tmux/plugins/
+git clone https://github.com/tmux-plugins/tpm $HOME/rice-temp/tmux/plugins/
 
 cp -r $HOME/rice-temp/bash/.bashrc $HOME/.bashrc
+cp -r $HOME/rice-temp/utils/ $HOME/
 cp -r $HOME/rice-temp/fish/ $HOME/.config/
 cp -r $HOME/rice-temp/neofetch/ $HOME/.config/
 cp -r $HOME/rice-temp/qutebrowser/ $HOME/.config/
