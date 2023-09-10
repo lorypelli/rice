@@ -140,6 +140,7 @@ end
 
 set -U fish_greeting
 
+alias cpx='chmod +x $HOME/cpx.sh && $HOME/cpx.sh'
 alias fetch='neofetch'
 
 alias ttc='cd $HOME/.config/'

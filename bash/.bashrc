@@ -13,6 +13,7 @@ fish
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
+alias cpx='chmod +x $HOME/cpx.sh && $HOME/cpx.sh'
 alias fetch='neofetch'
 
 alias ttc='cd $HOME/.config/'
