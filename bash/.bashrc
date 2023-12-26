@@ -30,4 +30,3 @@ PS1='[\[\e[3m\]\u\[\e[0m\]@\[\e[3m\]\h\[\e[0m\]](\t)\n#\[\e[1m\]\w\[\e[0m\] [\[\
 CONFIG='$HOME/.config/'
 RICE='$HOME/rice/'
 GOPATH='$HOME/go/'
-PATH='$PATH:$GOPATH/bin/'
