@@ -152,6 +152,7 @@ alias ttct='cd $HOME/.config/tmux/'
 alias tth='cd $HOME/'
 alias ttr='cd $HOME/rice/'
 
-# Change lorypelli with your own username
-set -Ux CONFIG '/home/lorypelli/.config/'
-set -Ux RICE '/home/lorypelli/rice/'
+set -Ux CONFIG '$HOME/.config/'
+set -Ux RICE '$HOME/rice/'
+set -Ux GOPATH '$HOME/go/'
+set -Ux PATH '$GOPATH/bin/'
