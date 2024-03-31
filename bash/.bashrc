@@ -19,13 +19,13 @@ alias fetch='neofetch'
 alias ttc='cd $HOME/.config/'
 alias ttcb='cd $HOME/.config/qutebrowser/'
 alias ttcf='cd $HOME/.config/fish/'
-alias ttcn='cd $HOME/.config/neofetch/'
 alias ttcr='cd $HOME/.config/rofi/'
 alias ttct='cd $HOME/.config/tmux/'
+alias ttci='cd $HOME/.config/i3'
 alias ttr='cd $HOME/rice/'
 alias tth='cd $HOME/'
 
 PS1='[\[\e[3m\]\u\[\e[0m\]@\[\e[3m\]\h\[\e[0m\]](\t)\n#\[\e[1m\]\w\[\e[0m\] [\[\e[3;4m\]$(git branch 2>/dev/null | grep '"'"'*'"'"' | colrm 1 2)\[\e[0m\]]\[\e[1m\]\\$\[\e[0m\] '
-# Change lorypelli with your own username
-CONFIG='/home/lorypelli/.config/'
-RICE='/home/lorypelli/rice/'
+
+CONFIG=$HOME/.config
+RICE=$HOME/rice
