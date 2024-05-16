@@ -14,14 +14,14 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 alias cpx='chmod +x $HOME/utils/cpx.sh && $HOME/utils/cpx.sh'
-alias fetch='neofetch'
+alias fetch='fastfetch'
 
 alias ttc='cd $HOME/.config/'
 alias ttcb='cd $HOME/.config/qutebrowser/'
 alias ttcf='cd $HOME/.config/fish/'
 alias ttcr='cd $HOME/.config/rofi/'
 alias ttct='cd $HOME/.config/tmux/'
-alias ttci='cd $HOME/.config/i3'
+alias ttci='cd $HOME/.config/i3/'
 alias ttr='cd $HOME/rice/'
 alias tth='cd $HOME/'
 
