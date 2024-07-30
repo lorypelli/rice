@@ -52,7 +52,8 @@ tiling_drag modifier titlebar
 bindsym $mod+a exec /usr/bin/alacritty
 
 # start rofi
-bindsym $mod+f exec /usr/bin/rofi -show drun
+# bindsym $mod+f exec /usr/bin/rofi -show drun
+bindsym $mod+f exec dmenu_run
 
 # start flameshot
 bindsym $mod+Shift+s exec /usr/bin/flameshot gui
