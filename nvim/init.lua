@@ -29,8 +29,7 @@ require("lazy").setup({
 	{
 		"williamboman/mason.nvim",
 		config = function()
-			local mason = require("mason")
-			mason.setup({
+			require("mason").setup({
 				ui = {
 					icons = {
 						package_installed = "✓",
@@ -44,9 +43,7 @@ require("lazy").setup({
 	{
 		"stevearc/conform.nvim",
 		config = function()
-			local conform = require("conform")
-
-			conform.setup({
+			require("conform").setup({
 				formatters_by_ft = {
 					javascript = { "prettier" },
 					typescript = { "prettier" },
@@ -67,6 +64,14 @@ require("lazy").setup({
 					async = true,
 				},
 			})
+		end,
+	},
+	{
+		"AlexvZyl/nordic.nvim",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("nordic").load()
 		end,
 	},
 })
