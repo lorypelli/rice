@@ -1,13 +1,12 @@
 return {
 	"stevearc/oil.nvim",
+	event = { "VimEnter" },
 	keys = {
 		{ "<leader>e", "<cmd>Oil<cr>" },
 	},
-	init = function()
-		require("oil").setup({
-			view_options = {
-				show_hidden = true,
-			},
-		})
-	end,
+	opts = {
+		view_options = {
+			show_hidden = true,
+		},
+	},
 }
