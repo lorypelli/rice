@@ -1,5 +1,5 @@
 return {
-	"AlexvZyl/nordic.nvim",
-	priority = 1000,
-	opts = {},
+    "AlexvZyl/nordic.nvim",
+    priority = 1000,
+    opts = {},
 }

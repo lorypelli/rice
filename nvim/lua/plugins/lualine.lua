@@ -1,4 +1,4 @@
 return {
-	"nvim-lualine/lualine.nvim",
-	opts = {},
+    "nvim-lualine/lualine.nvim",
+    opts = {},
 }
