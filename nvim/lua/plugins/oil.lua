@@ -1,12 +1,18 @@
 return {
     "stevearc/oil.nvim",
-    event = { "VimEnter" },
+    lazy = true,
+    event = {
+        "VimEnter"
+    },
     keys = {
-        { "<leader>e", "<cmd>Oil<cr>" },
+        {
+            "<leader>e",
+            "<cmd>Oil<cr>"
+        }
     },
     opts = {
         view_options = {
-            show_hidden = true,
-        },
-    },
+            show_hidden = true
+        }
+    }
 }
