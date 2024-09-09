@@ -10,4 +10,6 @@ vim.opt.cursorlineopt = "number"
 
 vim.cmd.colorscheme("nordic")
 
-vim.keymap.set("n", "<leader>l", "<cmd>Lazy<cr>", { noremap = true })
+vim.keymap.set("n", "<leader>l", "<cmd>Lazy<CR>", { noremap = true })
+
+vim.keymap.set({ "n", "v" }, "<Tab>", "<cmd>lua vim.lsp.buf.hover()<CR>", { noremap = true })
