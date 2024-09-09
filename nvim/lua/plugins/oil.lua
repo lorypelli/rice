@@ -7,7 +7,7 @@ return {
     keys = {
         {
             "<leader>e",
-            "<cmd>Oil<cr>"
+            "<cmd>Oil<CR>"
         }
     },
     opts = {

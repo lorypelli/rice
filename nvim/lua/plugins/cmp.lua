@@ -5,7 +5,6 @@ return {
         "InsertEnter"
     },
     dependencies = {
-        "hrsh7th/cmp-buffer",
         "hrsh7th/cmp-nvim-lsp",
         "hrsh7th/cmp-path"
     },
@@ -13,9 +12,6 @@ return {
         local cmp = require("cmp")
         return {
             sources = {
-                {
-                    name = "buffer"
-                },
                 {
                     name = "nvim_lsp"
                 },
@@ -28,8 +24,11 @@ return {
                 ["<Up>"] = cmp.mapping.select_prev_item(),
                 ["<Down>"] = cmp.mapping.select_next_item(),
                 ["<Esc>"] = cmp.mapping.close()
+            },
+            window = {
+                documentation = cmp.config.window.bordered(),
+                completion = cmp.config.window.bordered()
             }
-
         }
     end
 }

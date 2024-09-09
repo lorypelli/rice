@@ -4,7 +4,5 @@ return {
     event = {
         "VimEnter"
     },
-    opts = {
-        main_image = "logo"
-    }
+    opts = {}
 }

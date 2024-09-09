@@ -4,7 +4,7 @@ return {
     keys = {
         {
             "<leader>m",
-            "<cmd>Mason<cr>"
+            "<cmd>Mason<CR>"
         }
     }
 }
