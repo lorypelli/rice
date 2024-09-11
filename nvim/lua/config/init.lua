@@ -8,7 +8,5 @@ vim.opt.relativenumber = true
 vim.opt.cursorline = true
 vim.opt.cursorlineopt = "number"
 
-vim.cmd.colorscheme("nordic")
-
-vim.keymap.set("n", "<leader>l", "<cmd>Lazy<CR>", { noremap = true })
-vim.keymap.set({ "n", "v" }, "<Tab>", function() vim.lsp.buf.hover() end, { noremap = true })
+require("config.colorscheme")
+require("config.keymaps")
