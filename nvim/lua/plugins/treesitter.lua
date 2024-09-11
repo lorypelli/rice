@@ -4,6 +4,7 @@ return {
     event = {
         "BufReadPost"
     },
+    main = "nvim-treesitter.configs",
     opts = {
         auto_install = true,
         highlight = {
@@ -20,8 +21,5 @@ return {
                 node_decremental = "<S-Down>"
             }
         }
-    },
-    config = function(_, opts)
-        require("nvim-treesitter.configs").setup(opts)
-    end
+    }
 }
