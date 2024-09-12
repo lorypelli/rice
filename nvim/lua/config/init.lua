@@ -8,5 +8,7 @@ vim.opt.relativenumber = true
 vim.opt.cursorline = true
 vim.opt.cursorlineopt = "number"
 
+vim.opt.clipboard = "unnamedplus"
+
 require("config.colorscheme")
 require("config.keymaps")
