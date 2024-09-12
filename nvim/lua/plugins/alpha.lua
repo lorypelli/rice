@@ -10,7 +10,8 @@ return {
             "<cmd>Alpha<CR>"
         }
     },
-    config = function()
-        require("alpha").setup(require("alpha.themes.startify").config)
+    opts = function()
+        local theme = require("alpha.themes.startify")
+        return theme.config
     end
 }
