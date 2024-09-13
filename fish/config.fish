@@ -146,6 +146,7 @@ alias fetch='fastfetch'
 alias ttc='cd $HOME/.config/'
 alias ttcb='cd $HOME/.config/qutebrowser/'
 alias ttcf='cd $HOME/.config/fish/'
+alias ttcn='cd $HOME/.config/nvim/'
 alias ttcr='cd $HOME/.config/rofi/'
 alias ttct='cd $HOME/.config/tmux/'
 alias ttci='cd $HOME/.config/i3/'
@@ -153,4 +154,5 @@ alias tth='cd $HOME/'
 alias ttr='cd $HOME/rice/'
 
 set -Ux CONFIG $HOME/.config
+set -Ux EDITOR /usr/bin/nvim
 set -Ux RICE $HOME/rice
