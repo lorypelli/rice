@@ -153,6 +153,6 @@ alias ttci='cd $HOME/.config/i3/'
 alias tth='cd $HOME/'
 alias ttr='cd $HOME/rice/'
 
-set -Ux CONFIG $HOME/.config
-set -Ux EDITOR /usr/bin/nvim
-set -Ux RICE $HOME/rice
+set -g CONFIG $HOME/.config
+set -g EDITOR /usr/bin/nvim
+set -g RICE $HOME/rice
