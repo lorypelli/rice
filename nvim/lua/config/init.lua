@@ -1,14 +1,14 @@
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.expandtab = true
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+vim.o.expandtab = true
 
-vim.opt.termguicolors = true
-vim.opt.relativenumber = true
+vim.o.termguicolors = true
+vim.o.relativenumber = true
 
-vim.opt.cursorline = true
-vim.opt.cursorlineopt = "number"
+vim.o.cursorline = true
+vim.o.cursorlineopt = "number"
 
-vim.opt.clipboard = "unnamedplus"
+vim.o.clipboard = "unnamedplus"
 
 require("config.colorscheme")
 require("config.keymaps")
