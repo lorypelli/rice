@@ -3,5 +3,5 @@ vim.keymap.set({ "n", "v" }, "<Tab>", function() vim.lsp.buf.hover() end, { nore
 vim.keymap.set("n", "<leader>q", "<cmd>:q<CR>", { noremap = true })
 vim.keymap.set("n", "<A-Up>", "<cmd>:m -2<CR>", { noremap = true })
 vim.keymap.set("n", "<A-Down>", "<cmd>:m +1<CR>", { noremap = true })
-vim.keymap.set("n", "<leader>qw", "<cmd>split<CR>", { noremap = true })
-vim.keymap.set("n", "<leader>qr", "<cmd>vsplit<CR>", { noremap = true })
+vim.keymap.set("n", "<leader>w", "<cmd>split<CR>", { noremap = true })
+vim.keymap.set("n", "<leader>r", "<cmd>vsplit<CR>", { noremap = true })
