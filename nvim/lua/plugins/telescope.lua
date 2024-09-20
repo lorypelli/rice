@@ -1,5 +1,6 @@
 return {
     "nvim-telescope/telescope.nvim",
+    lazy = true,
     dependencies = {
         "nvim-lua/plenary.nvim"
     },
@@ -12,5 +13,6 @@ return {
             "<leader>f",
             "<cmd>Telescope find_files<CR>"
         }
-    }
+    },
+    opts = {}
 }

@@ -1,10 +1,11 @@
 return {
     "williamboman/mason.nvim",
-    opts = {},
+    lazy = true,
     keys = {
         {
             "<leader>m",
             "<cmd>Mason<CR>"
         }
-    }
+    },
+    opts = {}
 }
