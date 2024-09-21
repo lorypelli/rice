@@ -1,5 +1,6 @@
 vim.keymap.set("n", "<leader>l", "<cmd>Lazy<CR>", { noremap = true })
 vim.keymap.set({ "n", "v" }, "<Tab>", function() vim.lsp.buf.hover() end, { noremap = true })
+vim.keymap.set({ "n", "v" }, "A", function() vim.lsp.buf.code_action() end, { noremap = true })
 vim.keymap.set("n", "<leader>q", "<cmd>:q<CR>", { noremap = true })
 vim.keymap.set("n", "<A-Up>", "<cmd>m -2<CR>", { noremap = true })
 vim.keymap.set("n", "<A-Down>", "<cmd>m +1<CR>", { noremap = true })

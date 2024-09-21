@@ -3,7 +3,8 @@ return {
     lazy = true,
     dependencies = {
         "nvim-lua/plenary.nvim",
-        "polirritmico/telescope-lazy-plugins.nvim"
+        "polirritmico/telescope-lazy-plugins.nvim",
+        "rcarriga/nvim-notify"
     },
     keys = {
         {
@@ -17,6 +18,10 @@ return {
         {
             "<leader>L",
             "<cmd>Telescope lazy_plugins<CR>"
+        },
+        {
+            "<leader>n",
+            "<cmd>Telescope notify<CR>"
         }
     },
     opts = {}

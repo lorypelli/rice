@@ -6,7 +6,7 @@ return {
     },
     opts = {
         hi = {
-            fg = "#88D4FC"
+            fg = "#87CEEB"
         }
     }
 }
