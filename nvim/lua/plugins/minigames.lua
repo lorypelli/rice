@@ -3,7 +3,7 @@ return {
     lazy = true,
     keys = {
         {
-            "<leader>g",
+            "<leader>G",
             "<cmd>VimBeGood<CR>"
         }
     },

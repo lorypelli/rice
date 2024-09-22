@@ -22,6 +22,10 @@ return {
         {
             "<leader>n",
             "<cmd>Telescope notify<CR>"
+        },
+        {
+            "<leader>g",
+            "<cmd>Telescope live_grep<CR>"
         }
     },
     opts = {}
