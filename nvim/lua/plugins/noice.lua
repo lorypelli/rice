@@ -4,5 +4,9 @@ return {
     event = {
         "VimEnter"
     },
-    opts = {}
+    opts = {
+        cmdline = {
+            view = "cmdline"
+        }
+    }
 }
