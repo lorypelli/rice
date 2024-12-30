@@ -1,9 +1,7 @@
 return {
     "rmagatti/goto-preview",
     lazy = true,
-    event = {
-        "BufReadPost"
-    },
+    event = "BufReadPost",
     keys = {
         {
             "<S-Tab>",

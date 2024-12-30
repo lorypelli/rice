@@ -1,9 +1,7 @@
 return {
     "folke/noice.nvim",
     lazy = true,
-    event = {
-        "VimEnter"
-    },
+    event = "VimEnter",
     opts = {
         cmdline = {
             view = "cmdline"

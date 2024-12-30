@@ -1,9 +1,7 @@
 return {
     "stevearc/oil.nvim",
     lazy = true,
-    event = {
-        "VimEnter"
-    },
+    event = "VimEnter",
     keys = {
         {
             "<leader>e",

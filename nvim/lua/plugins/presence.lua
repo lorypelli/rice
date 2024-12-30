@@ -1,8 +1,6 @@
 return {
     "IogaMaster/neocord",
     lazy = true,
-    event = {
-        "VimEnter"
-    },
+    event = "VimEnter",
     opts = {}
 }

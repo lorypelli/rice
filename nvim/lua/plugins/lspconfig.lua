@@ -2,12 +2,12 @@ return {
     "williamboman/mason-lspconfig.nvim",
     lazy = true,
     event = {
-        "BufReadPost"
+        "BufReadPost",
+        "BufNewFile"
     },
     dependencies = {
         "neovim/nvim-lspconfig",
-        "lukas-reineke/lsp-format.nvim",
-        "hrsh7th/cmp-nvim-lsp"
+        "lukas-reineke/lsp-format.nvim"
     },
     opts = {
         handlers = {

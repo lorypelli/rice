@@ -1,8 +1,6 @@
 return {
     "nvim-lualine/lualine.nvim",
     lazy = true,
-    event = {
-        "VimEnter"
-    },
+    event = "VimEnter",
     opts = {}
 }

@@ -1,9 +1,7 @@
 return {
     "nvim-treesitter/nvim-treesitter",
     lazy = true,
-    event = {
-        "BufReadPost"
-    },
+    event = "BufReadPost",
     main = "nvim-treesitter.configs",
     opts = {
         auto_install = true,

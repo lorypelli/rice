@@ -10,5 +10,7 @@ vim.o.cursorlineopt = "number"
 
 vim.o.clipboard = "unnamedplus"
 
+vim.loader.enable()
+
 require("config.colorscheme")
 require("config.keymaps")
