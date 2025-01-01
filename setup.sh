@@ -12,8 +12,6 @@ git clone https://github.com/lorypelli/rice $HOME/rice-temp/
 git clone https://github.com/dracula/qutebrowser-dracula-theme $HOME/rice-temp/qutebrowser/dracula/
 git clone https://github.com/tmux-plugins/tpm $HOME/rice-temp/tmux/plugins/
 
-sudo pacman -S alacritty fish neovim rofi tmux
-
 cp -r $HOME/rice-temp/bash/.bashrc $HOME/.bashrc
 cp -r $HOME/rice-temp/fish/ $HOME/.config/
 cp -r $HOME/rice-temp/i3/ $HOME/.config/
@@ -24,3 +22,5 @@ cp -r $HOME/rice-temp/tmux/ $HOME/.config/
 cp -r $HOME/rice-temp/utils $HOME/
 
 rm -rf $HOME/rice-temp/
+
+sudo pacman -S alacritty fish neovim rofi tmux
