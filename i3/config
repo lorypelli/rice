@@ -49,17 +49,17 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+a exec --no-startup-id /usr/bin/alacritty
+bindsym $mod+a exec /usr/bin/alacritty
 
 # start rofi
-# bindsym $mod+f exec --no-startup-id /usr/bin/rofi -show drun
-bindsym $mod+f exec --no-startup-id dmenu_run
+# bindsym $mod+f exec /usr/bin/rofi -show drun
+bindsym $mod+f exec dmenu_run
 
 # start flameshot
-bindsym $mod+Shift+s exec --no-startup-id /usr/bin/flameshot gui
+bindsym $mod+Shift+s exec /usr/bin/flameshot gui
 
 # lock session
-bindsym $mod+space exec --no-startup-id i3lock
+bindsym $mod+space exec i3lock
 
 # kill focused window
 bindsym $mod+q kill
