@@ -23,4 +23,4 @@ cp -r $HOME/rice-temp/utils $HOME/
 
 rm -rf $HOME/rice-temp/
 
-sudo pacman -S alacritty fish neovim rofi tmux --no-confirm
+sudo pacman -S alacritty fish neovim rofi tmux --noconfirm
